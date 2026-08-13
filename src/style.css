@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #202329;
+    color: white;
+}
+
+#app {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+
+#personagens {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+#personagens button {
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    border-radius: 10px;
+    background: #3c3e44;
+    color: white;
+    cursor: pointer;
+    text-align: left;
+}
+
+#personagens button:hover {
+    transform: scale(1.03);
+}
+
+#personagens img {
+    width: 100%;
+    display: block;
+}
+
+#personagens h2 {
+    padding: 0 15px;
+}
+
+#detalhes {
+    margin-top: 50px;
+    padding: 30px;
+    background: #3c3e44;
+    border-radius: 15px;
+}
+
+#detalhes img {
+    width: 200px;
+    border-radius: 10px;
+}
